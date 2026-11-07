@@ -35,8 +35,7 @@ def fit_life():
         f"{greeting}\n"
         f"{bmi_text}\n"
         f"{water_text}\n"
-        f"{recommendation}"
-    )
+        f"{recommendation}")
 
     print(f"{result}")
 
