@@ -4,12 +4,10 @@ import sys
 
 def fit_life():
     """Рассчитывает ИМТ и количество воды."""
-
     if hasattr(sys.stdout, "reconfigure"):
         sys.stdout.reconfigure(encoding="utf-8")
 
     introduction = "Добро пожаловать в FitLife"
-
     user_name = input("Введите ваше имя: ")
     user_age = int(input("Введите ваш возраст: "))
 
@@ -22,7 +20,6 @@ def fit_life():
     bmi = round(bmi, 1)
 
     bmi_text = f"Ваш индекс массы тела: {bmi}"
-
     water_ml = weight * 30
     water_l = water_ml / 1000
     water_l = round(water_l, 2)
